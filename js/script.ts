@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 0 </span>
                         </button>
                         <div class="cart-wrapper">
-                            <a href="/pages/cart.html">Cart</a>
+                            <a href="pages/cart.html">Cart</a>
                             <span>$ 0</span>
                         </div>
                     </div>
