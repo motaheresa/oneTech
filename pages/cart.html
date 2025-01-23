@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font family  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cart.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- <header></header> -->
+    <main>
+        <aside></aside>
+        <section id="cart-page">
+            <div class="container">
+                <div class="cart-page-header">
+                    <h2>Cart List</h2>
+                </div>
+                <!-- <div class="empty-cart-img-wrapper">
+                    <img src="/imgs/empty-cart.svg" alt="">
+                </div> -->
+                <div class="cart-page-cartlist">
+                    <div class="cart-page-cartlist-items">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    
+                                    <th>Total</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <div class="cart-page-cartlist-items-item">
+                                        <td>
+                                            <div class="first-col">
+                                                <div class="cart-page-cartlist-items-item-img-wrapper">
+                                                    <img src="/imgs/filter-product.webp" alt="">
+                                                </div>
+                                                <!-- <div class="cart-page-cartlist-items-item-desc-wrapper">
+                                                    <h5>Name</h5>
+                                                    <p>Category</p>
+                                                </div> -->
+                                            </div>
+                                        </td>
+                                        <td>Name</td>
+                                        <td>Category</td>
+                                        <td class="cart-page-cartlist-items-item-quantity-price">90</td>
+                                        <td>
+                                            <div class="cart-page-cartlist-items-item-quantity">
+                                                <button
+                                                    class="cart-page-cartlist-items-item-quantity-operator cart-page-cartlist-items-item-quantity-minus">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </button>
+                                                <button class="cart-page-cartlist-items-item-quantity-num">1</button>
+                                                <button
+                                                    class="cart-page-cartlist-items-item-quantity-operator cart-page-cartlist-items-item-quantity-plus">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        
+                                        <td class="cart-page-cartlist-items-item-quantity-totalprice"></td>
+                                        <td class="cart-page-cartlist-items-item-quantity-delete">
+                                            <div>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </div>
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="cart-page-cartlist-items-item">
+                                        <td>
+                                            <div class="first-col">
+                                                <div class="cart-page-cartlist-items-item-img-wrapper">
+                                                    <img src="/imgs/filter-product.webp" alt="">
+                                                </div>
+                                                <!-- <div class="cart-page-cartlist-items-item-desc-wrapper">
+                                                    <h5>Name</h5>
+                                                    <p>Category</p>
+                                                </div> -->
+                                            </div>
+                                        </td>
+                                        <td>Name</td>
+                                        <td>Category</td>
+                                        <td class="cart-page-cartlist-items-item-quantity-price">90</td>
+                                        <td>
+                                            <div class="cart-page-cartlist-items-item-quantity">
+                                                <button
+                                                    class="cart-page-cartlist-items-item-quantity-operator cart-page-cartlist-items-item-quantity-minus">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </button>
+                                                <button class="cart-page-cartlist-items-item-quantity-num">1</button>
+                                                <button
+                                                    class="cart-page-cartlist-items-item-quantity-operator cart-page-cartlist-items-item-quantity-plus">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        
+                                        <td class="cart-page-cartlist-items-item-quantity-totalprice"></td>
+                                        <td class="cart-page-cartlist-items-item-quantity-delete">
+                                            <div>
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </div>
+                                        </td>
+                                    </div>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cart-bottom-2-boxes">
+                        <div class="cart-page-cartlist-summary-wrapper">
+                            <div class="cart-page-cartlist-summary">
+                                <p>Order Summary</p>
+                                <div class="cart-page-cartlist-summary-info">
+                                    <div class="cart-page-cartlist-summary-info-wrapper">
+                                        <p>Subtotal</p>
+                                        <p>$418.00</p>
+                                    </div>
+                                    <div class="cart-page-cartlist-summary-info-wrapper">
+                                        <p>Shipping</p>
+                                        <p>$418.00</p>
+                                    </div>
+                                    <!-- <div class="cart-page-cartlist-summary-info-wrapper">
+                                        <button><span>Add coupon code</span> <i
+                                                class="fa-solid fa-arrow-right"></i></button>
+                                    </div> -->
+                                </div>
+                                <div class="cart-page-cartlist-summary-info-footer-wrapper">
+                                    <div class="cart-page-cartlist-summary-info-footer">
+                                        <p>Total</p>
+                                        <p>$418</p>
+                                    </div>
+                                    <div class="cart-page-cartlist-summary-checkout-btn">
+                                        <button>PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="cart-page-cartlist-summary-wrapper">
+                            <div class="cart-page-cartlist-summary">
+                                <p>COUPON</p>
+                                <div class="cart-page-cartlist-summary-info">
+                                    <div class="cart-page-cartlist-summary-info-wrapper">
+                                        <p>Enter your coupon code if you have one.</p>
+                                        
+                                    </div>
+                                    <div class="cart-page-cartlist-summary-info-wrapper-input-coupon-wrapper">
+                                            <input class="cart-page-cartlist-summary-info-wrapper-input-coupon-wrapper-inputfield" type="text" placeholder="Coupon Code">
+                                            <button class="cart-page-cartlist-summary-info-wrapper-input-coupon-wrapper-btn">APPLY COUPON</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="cart-page-cartlist-summary-checkout-btn">
+                                <button>CHECKOUT</button>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- js file -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
