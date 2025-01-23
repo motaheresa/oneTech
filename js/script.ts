@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="home-btns">
                     <div class="home-btns-btn home-btns-wishlist">
                         <button type="button" class="btn  position-relative">
-                            <img src="../imgs/wishlist.webp" alt="Wishlist">
+                            <img src="imgs/wishlist.webp" alt="Wishlist">
                             <span class="position-absolute translate-middle badge rounded-pill">
                                 0 </span>
                         </button>
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <div class="home-btns-btn home-btns-wishlist">
                         <button type="button" class="btn  position-relative">
-                            <img src="../imgs/cart.webp" alt="Cart">
+                            <img src="imgs/cart.webp" alt="Cart">
                             <span class="position-absolute translate-middle badge rounded-pill">
                                 0 </span>
                         </button>
