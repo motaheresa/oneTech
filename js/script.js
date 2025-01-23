@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <ul>
                         <li>
-                            <a href="../index.html" class="">Home</a>
+                            <a href="/index.html" class="">Home</a>
                         </li>
                         <li>
                             <a href="Home">Super Deals</a>
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <span style="cursor: pointer;">Pages <i class="fa-solid fa-caret-down"></i></span>
                             <ul class="dropdown">
                                 <li>
-                                    <a href="../pages/shop.html">Shop</a>
+                                    <a href="/pages/shop.html">Shop</a>
                                 </li>
                                 <li>
                                     <a href="">Product</a>
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <a href="">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="../pages/cart.html">Cart</a>
+                                    <a href="/pages/cart.html">Cart</a>
                                 </li>
                                 <li>
                                     <a href="">Contact</a>
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <input type="search" placeholder="Search For Products...">
                         <ul>
                             <li>
-                                <a href="../index.html">Home</a>
+                                <a href="/index.html">Home</a>
                             </li>
                             <li>
                                 <a href="Home">Super Deals</a>
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <span>Pages <i class="fa-solid fa-caret-down"></i></span>
                                 <ul class="dropdown">
                                     <li>
-                                        <a href="../pages/shop.html">Shop</a>
+                                        <a href="/pages/shop.html">Shop</a>
                                     </li>
                                     <li>
                                         <a href="#">Product</a>
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <a href="#">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="../pages/cart.html">Cart</a>
+                                        <a href="/pages/cart.html">Cart</a>
                                     </li>
                                     <li>
                                         <a href="#">Contact</a>
